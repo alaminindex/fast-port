@@ -5,52 +5,103 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.primaryTextColor{
-    color: #FD6E0A;
-    
+.primaryTextColor {
+  color: #fd6e0a;
 }
-.primaryBgColor{
-    background-color: #FD6E0A;
-    
+.primaryBgColor {
+  background-color: #fd6e0a;
 }
 /* nav related styles */
 
-
 nav {
   display: flex;
-  align-items: center;
-  margin-top: 30px;
+  justify-content: space-between;
+  padding: 30px 100px 0px 100px;
 }
-.navUl, li, a, button {
+.navUl,
+li,
+a,
+button {
   display: flex;
   gap: 4rem;
   text-decoration: none;
-  color:  #474747;
+  color: #000000;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   align-items: center;
- 
+}
+
+.navUl,
+li,
+a:hover {
+  color: lightgray;
 }
 
 .navTittle {
   font-size: 45px;
   font-weight: 800;
+  cursor: pointer;
 }
 
-.navLinkBtn{
-    width: 150px;
-    height: 64px;
-    border-radius: 5px;
-    justify-content: center;
-    border: none;
-    color: white;
-    cursor: pointer;
-
+.navLinkBtn {
+  width: 150px;
+  height: 64px;
+  border-radius: 5px;
+  justify-content: center;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
-.navLinkBtn:hover{
-    color: #0d0600;
-    background-color: lightgray;
+.navLinkBtn:hover {
+  color: #0d0600;
+  background-color: lightgray;
 }
 
+/* Header related style  */
 
+header {
+  background-color: #fff8f3;
+}
+
+/* banner section style here  */
+
+.banner {
+  padding: 90px 100px 0px 100px;
+}
+
+/* banner-description section here */
+.hiTittle{
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.maryHardyTittle{
+    color: var(--Dark-01, #181818);
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description{
+    width: 585px;
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/* bannerBtn section here */
+
+.bannerBtn{
+    display: flex;
+    gap: 40px;
+}
