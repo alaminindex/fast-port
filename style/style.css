@@ -18,10 +18,7 @@ nav {
   justify-content: space-between;
   padding: 30px 200px 0px 200px;
 }
-.navUl,
-li,
-a,
-button {
+.navUl,li,a {
   display: flex;
   gap: 4rem;
   text-decoration: none;
@@ -31,9 +28,7 @@ button {
   align-items: center;
 }
 
-.navUl,
-li,
-a:hover {
+.navUl,li,a:hover {
   color: lightgray;
 }
 
@@ -114,9 +109,9 @@ header {
 }
 
 .downloadBtn {
-  justify-content: center;
   text-align: center;
   font-size: 20px;
+  font-weight: 700;
   width: 200px;
   height: 64px;
   flex-shrink: 0;
@@ -125,6 +120,12 @@ header {
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
   cursor: pointer;
+
+
+}
+
+.downloadBtn>i{
+  margin-right: 5px;
 }
 
 .downloadBtn:hover {
@@ -262,3 +263,56 @@ header {
   line-height: 28px; /* 175% */
   
 }
+
+/* main summary section  */
+.mainArticleFour{
+  margin: 100px 200px;
+  
+  
+}
+
+.mainArticleFour>h1{
+  color:  #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 50px 0px;
+
+ }
+
+ .mainSummaryCard{
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+ }
+
+ .allSummarySize{
+  width: 511px;
+ }
+
+ .fistSummaryTittle{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom:30px;
+ }
+
+ .secondSummaryTittle{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+ }
+
+ .thirdSummaryTittle{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0px 20px 0px;
+ }
+
+ .pSummaryTittle{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+ }
