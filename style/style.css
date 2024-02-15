@@ -67,10 +67,7 @@ header {
   background-position: bottom right;
   /* width: 1920px;
   position: fixed; */
-  
-  
 }
-
 
 /* banner section style here  */
 
@@ -82,64 +79,60 @@ header {
   background-image: url(../images/developer.png);
   background-repeat: no-repeat;
   background-size: 110px;
- 
 }
 
 /* banner-description section here */
-.hiTittle{
-    color: #474747;
-    font-family: "Open Sans";
-    font-size: 50px;
-    font-weight: 600;
-    
+.hiTittle {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.maryHardyTittle{
-    color:#181818;
-    font-family: "Open Sans";
-    font-size: 95px;
-    font-weight: 700;
+.maryHardyTittle {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 95px;
+  font-weight: 700;
 }
 
-.description{
-    width: 700px;
-    color:  #757575;
-    font-family: "Open Sans";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 40px; /* 166.667% */
+.description {
+  width: 700px;
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
 }
 
 /* bannerBtn section here */
 
-.bannerBtn{
-    display: flex;
-    gap: 40px;
-    margin-top: 20px;
+.bannerBtn {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
 }
 
-.downloadBtn{
+.downloadBtn {
   justify-content: center;
-    text-align: center;
-    font-size: 20px;
-    width: 200px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: transparent;
-    border:1px solid #FD6E0A;
-    color: #FD6E0A;
-    cursor: pointer;
-   
-
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  cursor: pointer;
 }
 
-.downloadBtn:hover{
-  background-color: #FD6E0A;
+.downloadBtn:hover {
+  background-color: #fd6e0a;
   color: white;
 }
 
-.contactBtn{
+.contactBtn {
   width: 160px;
   height: 64px;
   flex-shrink: 0;
@@ -147,4 +140,31 @@ header {
 
 
 
+/* Main-Description */
 
+.mainArticleOne {
+  width: 827px;
+  margin: auto;
+  padding: 200px 150px;
+  background-color: #fff8f3;
+  margin-top: 200px;
+  
+ 
+}
+
+.aboutMe{
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+
+}
+
+
+.mainDescription >a{
+  color: #fff8f3;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+
+}
