@@ -325,3 +325,76 @@ header {
   margin-bottom: 100px;
  
  }
+
+ .mainFooter{
+  height: 500px;
+  display: flex;
+  background-color: #FFF8F3;
+  justify-content: center;
+  padding: 100px 200px;
+  gap: 20%;
+  /* align-items: center; */
+ }
+
+.iconField>h1{
+  color:  #181818;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.iconField>p{
+  width: 562px;
+  color:  #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin: 20px 0px 30px 0px;
+}
+
+ .icons{
+  display: flex;
+  gap: 24px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  cursor: pointer;
+ }
+
+ .contactField>label>input{
+  display: block;
+  
+ }
+
+ .middleInput{
+  font-size: 20px;
+  width: 440px;
+  height: 40px;
+  padding: 0px 15px;
+  margin: 40px 0px;
+  border: none;
+  outline: none;
+ }
+ .fInput{
+  font-size: 20px;
+  width: 440px;
+  height: 40px;
+  padding: 0px 15px;
+  border: none;
+  outline: none;
+ 
+ }
+
+ textarea{
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+ }
+
+ .btnLast{
+  margin-top: 30px;
+  display: block;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+ }
